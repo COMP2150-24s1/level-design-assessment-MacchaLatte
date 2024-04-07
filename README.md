@@ -24,20 +24,20 @@ I have put a lot of thought into this stage to keep players curious at all times
  
 The main discoveries in Section 1 are hazards (acid and spikes), weapons (staff) and the act of defeating enemies.
 ![](docimages/disc2.png)
-[](docimages/disc3.png)
-[](docimages/disc4.png)
+![](docimages/disc3.png)
+![](docimages/disc4.png)
 
 Towards the end of the section, the player will discover how to use platforms and doors operated by pressure pads. This gimmick is also applied and used in later sections.
-[](docimages/disc5.png)
-[](docimages/disc6.png)
+![](docimages/disc5.png)
+![](docimages/disc6.png)
 
 Section 2 consists mainly of destructible walls and block-based gimmicks. There are two types of blocks: those that can be moved by pushing them and those that cannot be moved by pushing them (black blocks in the image: slightly modified behaviours from existing data).
-[](docimages/disc7.png)
+![](docimages/disc7.png)
 
 Section 3 consists of the introduction of the gun + a combination of the gimmicks so far.
 The player discovers the strategy by applying the gimmicks that have been mentioned so far together with the gun.
-[](docimages/disc8.png)
-[](docimages/disc9.png)
+![](docimages/disc8.png)
+![](docimages/disc9.png)
 
 
 ### 1.2. Drama
