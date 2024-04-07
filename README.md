@@ -53,11 +53,6 @@ Players will later be able to take up weapons and break down walls to explore ar
 
 
 ## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Passthrough Platforms
 To familiarise them with the system as soon as possible, as it is used throughout the level.
@@ -89,50 +84,60 @@ To make the player aware that they can travel on it as well as on foot. To teach
 ### 2.10. Keys
 To show that the aim is to use the keys collected to ultimately escape the level. 
 
-### 2.11. Weapon Pickup (Gun)
+/ * optional prefabs
+
+### 2.11. pressure pad activated elevating platform
+Introduction that all moving platforms are not automatic and can be moved by you. Used in several sections.
+
+### 2.12. pressure pad activated triger door
+The door in front of them could not be opened from the way they came, indicating that there was a switch somewhere.
+
+### 2.13. breakable walls
+Mechanic used to facilitate progression through the stages where weapons are used to destroy objects. Not used in Section 1.
+
+### 2.14. pushable blocks
+The platform can be partially modified by moving it. It was shown to act as an obstacle or to allow access to paths that could not be reached by jumping or walking by creating a new platform from moving it around. 
+
+### 2.15. non-pushable blocks (MY CUSTOM PREFAB BY MODDING PUSHABLE BLOCK)
+This block was modified from the original push-to-move block to create a block that does not move when pushed. If there is a breakable wall under the block, it can be broken and dropped down. This block showed that a path blocked by this block could be dropped down and opened by breaking a destructible block under the block.
+Only used in Section 2.
+
+### 2.17. bullet activated bridge
+To show that it is possible to move certain platforms by firing bullets.
+
+* /
+
+### 2.16. Weapon Pickup (Gun)
 To teach the player that weapons can be used not only to destroy enemies and objects, but also to activate objects
 
 
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
+![](DocImages/molecule.png)
 
 ### 3.2. Level Map – Section 1
 ![](DocImages/section1.png)
 
 ### 3.3. Level Map – Section 2
-
+![](DocImages/section2.png)
 
 ### 3.4. Level Map – Section 3
 ![](DocImages/section3.png)
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+When I designed and playtested a stage where a player jumps over a pond of acid, I realised it was too easy. Intuitively, I thought that this was due to the lack of obstacles and enemies, so I experimented with more complex ceilings and uneven footholds. This time, I was confronted with the problem that the ceiling was too low, so when I flew, I crashed and fell straight into a pool of acid, and the scaffolding at the landing point was too high for the character to jump over. However, if I removed the obstacles, it became a boring stage with no substance, just like the initial stage plan.
+When I racked my brain about how to improve it, I wondered if it would be possible to create a stage by making good use of the problem of the unevenness of the ceiling and scaffolding.
+As for the experiment, I conducted:
+- how many squres can the player jump?
+- how many squares high can the player jump?
+- if there is an obstacle such as a ceiling diagonally in front of the player and the player jumps with maximum jump and forward force, how many squares away and how high from where the player is standing will the player collide with the obstacle?
+After several playtests under these conditions, I finally succeeded in creating a play route where the landing point is just out of reach when the player jumps, and just above the character's head, without hitting any ceiling or obstacle.
+Thanks to the success of this structure, the difficulty of the level as a whole was originally easy, but the structures in various positions made the difficulty moderately balanced.
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
-## Generative AI Use Acknowledgement
-
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
-
+** changes made after design map **
+- In section 2, one extra non-movable block added on block pile with 5 hit breakable block.
+- In section 2, the sequence where the player pushes and drops down two blocks at the top section, an extra playthrough in which the player pushes one of the blocks into an acid pool is added. The original playthrough in the design map above is too far for the player to jump and land on the top of the piled blocks, and this resulted in them falling straight into the acid pool.
 
