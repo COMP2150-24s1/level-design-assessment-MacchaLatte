@@ -19,7 +19,25 @@ Example:
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+I have put a lot of thought into this stage to keep players curious at all times. When players start the game, they first spawn in a large space. They then discover an exit above their head and a passageway (section 1) below them that they can pass through. The passage continues to the left and right of the large space, but the walls are in the way and prevent the player from proceeding. As the player does not have a weapon at this point, the player cannot proceed by breaking the walls on either side and as a result, they will have to go through the first passageway the player can pass through.
+
+ (C:\Users\mai10\OneDrive\Pictures\スクリーンショット\Screenshot 2024-04-07 185305.png)
+ 
+The main discoveries in Section 1 are hazards (acid and spikes), weapons (staff) and the act of defeating enemies.
+
+
+
+Towards the end of the section, the player will discover how to use platforms and doors operated by pressure pads. This gimmick is also applied and used in later sections.
+
+
+Section 2 consists mainly of destructible walls and block-based gimmicks. There are two types of blocks: those that can be moved by pushing them and those that cannot be moved by pushing them (black blocks in the image: slightly modified behaviours from existing data).
+
+
+
+Section 3 consists of the introduction of the gun + a combination of the gimmicks so far.
+The player discovers the strategy by applying the gimmicks that have been mentioned so far together with the gun.
+
+
 
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
