@@ -23,7 +23,7 @@ I have put a lot of thought into this stage to keep players curious at all times
 ![](DocImages/disc.png)
  
 The main discoveries in Section 1 are hazards (acid and spikes), weapons (staff) and the act of defeating enemies.
-![](docimages/disc2.png)
+![](DocImages/disc2.png)
 ![](docimages/disc3.png)
 ![](docimages/disc4.png)
 
