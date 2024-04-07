@@ -24,30 +24,40 @@ I have put a lot of thought into this stage to keep players curious at all times
  
 The main discoveries in Section 1 are hazards (acid and spikes), weapons (staff) and the act of defeating enemies.
 ![](DocImages/disc2.png)
-![](docimages/disc3.png)
-![](docimages/disc4.png)
+![](DocImages/disc3.png)
+![](DocImages/disc4.png)
 
 Towards the end of the section, the player will discover how to use platforms and doors operated by pressure pads. This gimmick is also applied and used in later sections.
-![](docimages/disc5.png)
-![](docimages/disc6.png)
+![](DocImages/disc5.png)
+![](DocImages/disc6.png)
 
 Section 2 consists mainly of destructible walls and block-based gimmicks. There are two types of blocks: those that can be moved by pushing them and those that cannot be moved by pushing them (black blocks in the image: slightly modified behaviours from existing data).
-![](docimages/disc7.png)
+![](DocImages/disc7.png)
 
 Section 3 consists of the introduction of the gun + a combination of the gimmicks so far.
 The player discovers the strategy by applying the gimmicks that have been mentioned so far together with the gun.
-![](docimages/disc8.png)
-![](docimages/disc9.png)
+![](DocImages/disc8.png)
+![](DocImages/disc9.png)
 
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+Section 1 has safe zones and hazardous environments respectively, giving a sense of both security and danger depending on the location. It is designed to require some skill, with gimmicks that can kill the player instantly if they make the slightest mistake.
+![](DocImages/dr.png)
+![](DocImages/dr2.png)
+
+Section 2 has fewer hazards, so the tension in terms of danger is less intense and the focus is more on moving blocks, so the player can feel relatively safe throughout this level.
+![](DocImages/dr3.png)
+
+Section 3 is where the player will experience the most tension, as they are always next to the hazards. It is also designed to require a bit of control skill, which can lead to a sense of frustration.
+[](DocImages/dr4.png)
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+When the player starts the game, they first find a floating platform with an exit above their head. The player attempts to jump onto the platform with the exit but is unable to access it because it is too high to jump onto. They are then forced to explore every corner of the vast map, driven by the question and curiosity of "What do I have to do to reach here?".
+Players will later be able to take up weapons and break down walls to explore areas that were previously unexplored. Each of the three areas has its own very unique traps. By playing around with many of the gimmicks, various patterns can be discovered, sparking how to progress through the sections.
+![](DocImages/disc.png)
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
